@@ -1,0 +1,46 @@
+<Type Name="NumberEditorErrorType" FullName="Hildon.NumberEditorErrorType">
+  <TypeSignature Language="C#" Value="public enum NumberEditorErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>hildon-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Members>
+    <Member MemberName="MaximumValueExceed">
+      <MemberSignature Language="C#" Value="MaximumValueExceed" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.NumberEditorErrorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumValueExceed">
+      <MemberSignature Language="C#" Value="MinimumValueExceed" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.NumberEditorErrorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ErroneousValue">
+      <MemberSignature Language="C#" Value="ErroneousValue" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.NumberEditorErrorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

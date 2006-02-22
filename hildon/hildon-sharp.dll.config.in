@@ -1,0 +1,6 @@
+<configuration>
+  <dllmap dll="hildonlgpl" target="libhildonlgpl@LIB_PREFIX@.0@LIB_SUFFIX@"/>
+  <dllmap dll="hildonwidgets" target="libhildonwidgets@LIB_PREFIX@.0@LIB_SUFFIX@"/>
+  <dllmap dll="hildonfm" target="libhildonfm@LIB_PREFIX@.1@LIB_SUFFIX@"/>
+</configuration>
+

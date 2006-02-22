@@ -1,0 +1,31 @@
+Hildon#
+=======
+
+Hildon# is a Gtk# bindings for Hildon libraries.
+
+Downloading
+-----------
+
+The latest version of Hildon# can be obtained from the following Web site:
+
+    https://...
+
+Building
+--------
+
+./configure
+make
+make install
+
+Copyright Considerations
+------------------------
+
+Hildon# is distributed under the terms of the GNU Lesser General Public License.
+A copy of this can be found in the "COPYING" file.
+
+Contacting the Author
+---------------------
+
+The author can be contacted via e-mail at the following address:
+
+    Everaldo Canuto <everaldo@bananacrew.com>

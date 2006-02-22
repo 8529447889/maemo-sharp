@@ -1,0 +1,231 @@
+<Type Name="Note" FullName="Hildon.Note">
+  <TypeSignature Language="C#" Value="public class Note : Gtk.Dialog" />
+  <AssemblyInfo>
+    <AssemblyName>hildon-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Gtk.Dialog</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected Note (GLib.GType gtype);" />
+      <MemberType>Constructor</MemberType>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete(Message=null, IsError=False)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="gtype" Type="GLib.GType" />
+      </Parameters>
+      <Docs>
+        <param name="gtype">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Note (IntPtr raw);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="raw" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="raw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Note (Gtk.Window parent, string description, Gtk.ProgressBar progressbar);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="progressbar" Type="Gtk.ProgressBar" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="progressbar">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Note (Gtk.Window parent, string description);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Note (Gtk.Window parent, string description, string icon_name);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="icon_name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="icon_name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewConfirmationWithIconStock">
+      <MemberSignature Language="C#" Value="public static Hildon.Note NewConfirmationWithIconStock (Gtk.Window parent, string description, string stock_id);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.Note</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="stock_id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="stock_id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewInformation">
+      <MemberSignature Language="C#" Value="public static Hildon.Note NewInformation (Gtk.Window parent, string description);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.Note</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewInformationWithIconName">
+      <MemberSignature Language="C#" Value="public static Hildon.Note NewInformationWithIconName (Gtk.Window parent, string description, string icon_name);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.Note</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="icon_name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="icon_name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewInformationWithIconStock">
+      <MemberSignature Language="C#" Value="public static Hildon.Note NewInformationWithIconStock (Gtk.Window parent, string description, string stock_id);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.Note</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="stock_id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="stock_id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewInformationWithIconTheme">
+      <MemberSignature Language="C#" Value="public static Hildon.Note NewInformationWithIconTheme (Gtk.Window parent, string description, string icon);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.Note</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="icon" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="description">To be added.</param>
+        <param name="icon">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetButtonTexts">
+      <MemberSignature Language="C#" Value="public void SetButtonTexts (string textOk, string textCancel);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textOk" Type="System.String" />
+        <Parameter Name="textCancel" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="textOk">To be added.</param>
+        <param name="textCancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ButtonText">
+      <MemberSignature Language="C#" Value="public string ButtonText { set; };" />
+      <MemberType>Property</MemberType>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GType">
+      <MemberSignature Language="C#" Value="public static GLib.GType GType { get; };" />
+      <MemberType>Property</MemberType>
+      <ReturnValue>
+        <ReturnType>GLib.GType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

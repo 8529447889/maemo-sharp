@@ -1,0 +1,36 @@
+<Type Name="GridItemIconSizeType" FullName="Hildon.GridItemIconSizeType">
+  <TypeSignature Language="C#" Value="public enum GridItemIconSizeType" />
+  <AssemblyInfo>
+    <AssemblyName>hildon-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Members>
+    <Member MemberName="Size128x128">
+      <MemberSignature Language="C#" Value="Size128x128" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.GridItemIconSizeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Size27x27">
+      <MemberSignature Language="C#" Value="Size27x27" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.GridItemIconSizeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

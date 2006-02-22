@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<monodoc>
+  <source provider="ecma" basefile="maemo-sharp-docs" path="classlib-maemo"/>
+</monodoc>
