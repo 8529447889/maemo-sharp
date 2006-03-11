@@ -3,7 +3,7 @@
 //
 // Author(s): Everaldo Canuto <everaldo@bananacrew.com>
 //
-// (C) 2004-2005 BananaCrew Limited <www.bananacrew.com>
+// (C) 2006 BananaCrew Limited
 // 
 // This library is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
@@ -23,10 +23,10 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-[assembly: AssemblyTitle("Hildon#")]
-[assembly: AssemblyDescription("Hildon bindings for Mono")]
+[assembly: AssemblyTitle("Maemo#")]
+[assembly: AssemblyDescription("Maemo bindings for Mono")]
 [assembly: AssemblyCompany("BananaCrew Limited")]
-[assembly: AssemblyCopyright("2005 BananaCrew Limited")]
+[assembly: AssemblyCopyright("2006 BananaCrew Limited")]
 [assembly: AssemblyVersion("@API_VERSION@")]
 [assembly: AssemblyDelaySign(false)]
 [assembly: AssemblyKeyFile("../maemo-sharp.snk")]

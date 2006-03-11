@@ -2970,7 +2970,7 @@ fi
 API_VERSION="1.0.0.0"
 
 
-                                                                                                                        ac_config_files="$ac_config_files Makefile hildon/hildon-sharp.pc hildon/hildon-sharp.dll.config hildon/Makefile hildon/AssemblyInfo.cs libosso/libosso-sharp.pc libosso/libosso-sharp.dll.config libosso/Makefile libosso/AssemblyInfo.cs sources/Makefile samples/Makefile doc/Makefile"
+                                                                                ac_config_files="$ac_config_files Makefile maemo/maemo-sharp.pc maemo/maemo-sharp.dll.config maemo/Makefile maemo/AssemblyInfo.cs sources/Makefile samples/Makefile doc/Makefile"
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
 # tests run on this system so they can be shared between configure
@@ -3537,14 +3537,10 @@ do
   case "$ac_config_target" in
   # Handling of arguments.
   "Makefile" ) CONFIG_FILES="$CONFIG_FILES Makefile" ;;
-  "hildon/hildon-sharp.pc" ) CONFIG_FILES="$CONFIG_FILES hildon/hildon-sharp.pc" ;;
-  "hildon/hildon-sharp.dll.config" ) CONFIG_FILES="$CONFIG_FILES hildon/hildon-sharp.dll.config" ;;
-  "hildon/Makefile" ) CONFIG_FILES="$CONFIG_FILES hildon/Makefile" ;;
-  "hildon/AssemblyInfo.cs" ) CONFIG_FILES="$CONFIG_FILES hildon/AssemblyInfo.cs" ;;
-  "libosso/libosso-sharp.pc" ) CONFIG_FILES="$CONFIG_FILES libosso/libosso-sharp.pc" ;;
-  "libosso/libosso-sharp.dll.config" ) CONFIG_FILES="$CONFIG_FILES libosso/libosso-sharp.dll.config" ;;
-  "libosso/Makefile" ) CONFIG_FILES="$CONFIG_FILES libosso/Makefile" ;;
-  "libosso/AssemblyInfo.cs" ) CONFIG_FILES="$CONFIG_FILES libosso/AssemblyInfo.cs" ;;
+  "maemo/maemo-sharp.pc" ) CONFIG_FILES="$CONFIG_FILES maemo/maemo-sharp.pc" ;;
+  "maemo/maemo-sharp.dll.config" ) CONFIG_FILES="$CONFIG_FILES maemo/maemo-sharp.dll.config" ;;
+  "maemo/Makefile" ) CONFIG_FILES="$CONFIG_FILES maemo/Makefile" ;;
+  "maemo/AssemblyInfo.cs" ) CONFIG_FILES="$CONFIG_FILES maemo/AssemblyInfo.cs" ;;
   "sources/Makefile" ) CONFIG_FILES="$CONFIG_FILES sources/Makefile" ;;
   "samples/Makefile" ) CONFIG_FILES="$CONFIG_FILES samples/Makefile" ;;
   "doc/Makefile" ) CONFIG_FILES="$CONFIG_FILES doc/Makefile" ;;

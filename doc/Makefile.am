@@ -8,9 +8,7 @@ docsdir = $(datadir)
 docs_DATA =
 endif
 
-ASSEMBLIES =                         \
-	../hildon/hildon-sharp.dll   \
-	../libosso/libosso-sharp.dll
+ASSEMBLIES = ../maemo/maemo-sharp.dll
 
 UPDATE_ASSEMBLIES = $(addprefix -assembly:, $(ASSEMBLIES))
 
@@ -24,7 +22,7 @@ CLEANFILES = maemo-sharp-docs.zip maemo-sharp-docs.tree
 
 EXTRA_DIST = maemo-sharp-docs.source
 
-NAMESPACES=Hildon LibOSSO
+NAMESPACES=Hildon Libosso
 
 dist-hook:
 	mkdir -p $(distdir)/en

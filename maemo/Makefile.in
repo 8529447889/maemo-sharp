@@ -37,16 +37,16 @@ POST_UNINSTALL = :
 build_triplet = @build@
 host_triplet = @host@
 target_triplet = @target@
-subdir = hildon
+subdir = maemo
 DIST_COMMON = $(srcdir)/AssemblyInfo.cs.in $(srcdir)/Makefile.am \
-	$(srcdir)/Makefile.in $(srcdir)/hildon-sharp.dll.config.in \
-	$(srcdir)/hildon-sharp.pc.in
+	$(srcdir)/Makefile.in $(srcdir)/maemo-sharp.dll.config.in \
+	$(srcdir)/maemo-sharp.pc.in
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.in
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 mkinstalldirs = $(mkdir_p)
-CONFIG_CLEAN_FILES = hildon-sharp.pc hildon-sharp.dll.config \
+CONFIG_CLEAN_FILES = maemo-sharp.pc maemo-sharp.dll.config \
 	AssemblyInfo.cs
 SOURCES =
 DIST_SOURCES =
@@ -147,29 +147,23 @@ target_cpu = @target_cpu@
 target_os = @target_os@
 target_vendor = @target_vendor@
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = hildon-sharp.pc
+pkgconfig_DATA = maemo-sharp.pc
 MCS = mcs
-RAW_API = hildon-api.raw
-API = hildon-api.xml
-METADATA = hildon.metadata
-ASSEMBLY_NAME = hildon-sharp
+RAW_API = maemo-api.raw
+API = maemo-api.xml
+METADATA = maemo.metadata
+ASSEMBLY_NAME = maemo-sharp
 ASSEMBLY = $(ASSEMBLY_NAME).dll
-
-#if WINBUILD
-#CODEGEN=gapi_codegen.exe
-#FIXUP=gapi-fixup.exe
-#else
 CODEGEN = gapi2-codegen
 FIXUP = gapi2-fixup
-#endif
-build_sources = AssemblyInfo.cs
+sources = Osso.cs
+build_sources = AssemblyInfo.cs $(sources)
 customs = 
 #customs = App.custom Widget.custom Project.custom WidgetClass.custom
-CLEANFILES = hildon-sharp.dll generated-stamp generated/*.cs $(API)
-DISTCLEANFILES = AssemblyInfo.cs hildon-sharp.pc
-noinst_DATA = hildon-sharp.dll
-glue_includes = glade.h
-EXTRA_DIST = $(RAW_API) $(sources) $(customs) $(METADATA) AssemblyInfo.cs.in hildon-sharp.dll.config.in hildon-sharp.pc.in $(API)
+CLEANFILES = maemo-sharp.dll generated-stamp generated/*.cs $(API)
+DISTCLEANFILES = AssemblyInfo.cs maemo-sharp.pc
+noinst_DATA = maemo-sharp.dll
+EXTRA_DIST = $(RAW_API) $(sources) $(customs) $(METADATA) AssemblyInfo.cs.in maemo-sharp.dll.config.in maemo-sharp.pc.in $(API)
 all: all-am
 
 .SUFFIXES:
@@ -182,9 +176,9 @@ $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am  $(am__confi
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu  hildon/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu  maemo/Makefile'; \
 	cd $(top_srcdir) && \
-	  $(AUTOMAKE) --gnu  hildon/Makefile
+	  $(AUTOMAKE) --gnu  maemo/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
@@ -202,9 +196,9 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
-hildon-sharp.pc: $(top_builddir)/config.status $(srcdir)/hildon-sharp.pc.in
+maemo-sharp.pc: $(top_builddir)/config.status $(srcdir)/maemo-sharp.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
-hildon-sharp.dll.config: $(top_builddir)/config.status $(srcdir)/hildon-sharp.dll.config.in
+maemo-sharp.dll.config: $(top_builddir)/config.status $(srcdir)/maemo-sharp.dll.config.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
 AssemblyInfo.cs: $(top_builddir)/config.status $(srcdir)/AssemblyInfo.cs.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
@@ -351,7 +345,7 @@ uninstall-am: uninstall-info-am uninstall-local \
 	uninstall-info-am uninstall-local uninstall-pkgconfigDATA
 
 
-all: generated-stamp hildon-sharp.dll
+all: generated-stamp maemo-sharp.dll
 
 $(API): $(srcdir)/$(RAW_API) $(srcdir)/$(METADATA)
 	cp $(srcdir)/$(RAW_API) $(API)
@@ -359,11 +353,11 @@ $(API): $(srcdir)/$(RAW_API) $(srcdir)/$(METADATA)
 	$(FIXUP) --api=$(srcdir)/$(API) --metadata=$(srcdir)/$(METADATA)
 
 generated-stamp: $(API)
-	 $(CODEGEN) --generate $(srcdir)/$(API) $(GTK_SHARP_CFLAGS) --glue-includes=$(glue_includes) --gluelib-name=libhildonsharpglue --glue-filename=../glue/glue.c --outdir=generated --customdir=$(srcdir) --assembly-name=hildon-sharp && touch generated-stamp
+	 $(CODEGEN) --generate $(srcdir)/$(API) $(GTK_SHARP_CFLAGS) --outdir=generated --customdir=$(srcdir) --assembly-name=maemo-sharp && touch generated-stamp
 
-hildon-sharp.dll: $(build_sources) generated-stamp
+maemo-sharp.dll: $(build_sources) generated-stamp
 	$(MCS) -nowarn:169 -unsafe -target:library $(GTK_SHARP_LIBS) \
-	$(build_sources) generated/*.cs -out:hildon-sharp.dll
+	$(build_sources) generated/*.cs -out:maemo-sharp.dll
 
 install-data-local:
 	echo "$(GACUTIL) /i $(ASSEMBLY) /f $(GACUTIL_FLAGS)";  \
