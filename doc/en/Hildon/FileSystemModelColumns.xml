@@ -1,0 +1,246 @@
+<Type Name="FileSystemModelColumns" FullName="Hildon.FileSystemModelColumns">
+  <TypeSignature Language="C#" Value="public enum FileSystemModelColumns" />
+  <AssemblyInfo>
+    <AssemblyName>maemo-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Members>
+    <Member MemberName="ColumnFileSize">
+      <MemberSignature Language="C#" Value="ColumnFileSize" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFreeSpace">
+      <MemberSignature Language="C#" Value="ColumnFreeSpace" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIsAvailable">
+      <MemberSignature Language="C#" Value="ColumnIsAvailable" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NumColumns">
+      <MemberSignature Language="C#" Value="NumColumns" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnAuthor">
+      <MemberSignature Language="C#" Value="ColumnAuthor" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnUri">
+      <MemberSignature Language="C#" Value="ColumnUri" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFileTime">
+      <MemberSignature Language="C#" Value="ColumnFileTime" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIconExpanded">
+      <MemberSignature Language="C#" Value="ColumnIconExpanded" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnThumbnail">
+      <MemberSignature Language="C#" Value="ColumnThumbnail" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnLoadReady">
+      <MemberSignature Language="C#" Value="ColumnLoadReady" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFileName">
+      <MemberSignature Language="C#" Value="ColumnFileName" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnLocalPath">
+      <MemberSignature Language="C#" Value="ColumnLocalPath" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnType">
+      <MemberSignature Language="C#" Value="ColumnType" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIsFolder">
+      <MemberSignature Language="C#" Value="ColumnIsFolder" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnHasLocalPath">
+      <MemberSignature Language="C#" Value="ColumnHasLocalPath" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnTitle">
+      <MemberSignature Language="C#" Value="ColumnTitle" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIsHidden">
+      <MemberSignature Language="C#" Value="ColumnIsHidden" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnSortKey">
+      <MemberSignature Language="C#" Value="ColumnSortKey" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIcon">
+      <MemberSignature Language="C#" Value="ColumnIcon" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnMimeType">
+      <MemberSignature Language="C#" Value="ColumnMimeType" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnDisplayName">
+      <MemberSignature Language="C#" Value="ColumnDisplayName" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnGtkPath">
+      <MemberSignature Language="C#" Value="ColumnGtkPath" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnIconCollapsed">
+      <MemberSignature Language="C#" Value="ColumnIconCollapsed" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.FileSystemModelColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

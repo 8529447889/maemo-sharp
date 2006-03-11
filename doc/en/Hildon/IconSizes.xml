@@ -1,0 +1,320 @@
+<Type Name="IconSizes" FullName="Hildon.IconSizes">
+  <TypeSignature Language="C#" Value="public struct IconSizes" />
+  <AssemblyInfo>
+    <AssemblyName>maemo-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Members>
+    <Member MemberName="IconSizeList">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeList;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeSmall">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeSmall;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeToolbar">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeToolbar;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeWidg">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeWidg;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeWidgWizard">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeWidgWizard;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeGrid">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeGrid;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeBigNote">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeBigNote;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeNote">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeNote;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeStatusbar">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeStatusbar;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiVideoPlayerPreRoll">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiVideoPlayerPreRoll;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiKeyPadLock">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiKeyPadLock;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiCopy">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiCopy;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiDelete">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiDelete;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiProcess">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiProcess;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiProgressball">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiProgressball;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiSend">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiSend;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiOffmodeCharging">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiOffmodeCharging;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiTapAndHold">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiTapAndHold;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiSendReceive">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiSendReceive;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconSizeIndiWlanStrength">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize IconSizeIndiWlanStrength;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSizeIndiNokiaLogo">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize ImageSizeIndiNokiaLogo;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSizeIndiStartupFailed">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize ImageSizeIndiStartupFailed;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSizeIndiStartupNokiaLogo">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize ImageSizeIndiStartupNokiaLogo;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageSizeIndiNokiaHands">
+      <MemberSignature Language="C#" Value="public Gtk.IconSize ImageSizeIndiNokiaHands;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Gtk.IconSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="public static Hildon.IconSizes Zero;" />
+      <MemberType>Field</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.IconSizes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="New">
+      <MemberSignature Language="C#" Value="public static Hildon.IconSizes New (IntPtr raw);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>Hildon.IconSizes</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="raw" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="raw">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public static void Init ();" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

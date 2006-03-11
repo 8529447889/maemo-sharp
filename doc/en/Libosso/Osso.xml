@@ -1,0 +1,48 @@
+<Type Name="Osso" FullName="Libosso.Osso">
+  <TypeSignature Language="C#" Value="public class Osso" />
+  <AssemblyInfo>
+    <AssemblyName>maemo-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Members>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (string application, string version, bool activation);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="application" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="activation" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="application">To be added.</param>
+        <param name="version">To be added.</param>
+        <param name="activation">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deinitialize">
+      <MemberSignature Language="C#" Value="public static void Deinitialize ();" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

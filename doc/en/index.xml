@@ -1,0 +1,90 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="maemo-sharp" Version="1.0.0.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright(Copyright="2006 BananaCrew Limited")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany(Company="BananaCrew Limited")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription(Description="Maemo bindings for Mono")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle(Title="Maemo#")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Libosso">
+      <Type Name="Osso" />
+    </Namespace>
+    <Namespace Name="Hildon">
+      <Type Name="AddHomeDialog" />
+      <Type Name="App" />
+      <Type Name="AppView" />
+      <Type Name="CalendarPopup" />
+      <Type Name="Caption" />
+      <Type Name="ColorSelector" />
+      <Type Name="ColorSelectorPriv" />
+      <Type Name="Controlbar" />
+      <Type Name="DateEditor" />
+      <Type Name="DateErrorArgs" />
+      <Type Name="EndReachedArgs" />
+      <Type Name="FileChooserDialog" />
+      <Type Name="FileDetailsDialog" />
+      <Type Name="FileHandlingNote" />
+      <Type Name="Note" />
+      <Type Name="FileSelection" />
+      <Type Name="FileSystemInfo" />
+      <Type Name="FileSystemModel" />
+      <Type Name="FileSystemSettings" />
+      <Type Name="FindToolbar" />
+      <Type Name="FontSelectionDialog" />
+      <Type Name="GetPasswordDialog" />
+      <Type Name="Global" />
+      <Type Name="Grid" />
+      <Type Name="GridItem" />
+      <Type Name="HVolumebar" />
+      <Type Name="Volumebar" />
+      <Type Name="HildonGtk" />
+      <Type Name="IconSizes" />
+      <Type Name="InsertObjectDialog" />
+      <Type Name="NamePasswordDialog" />
+      <Type Name="NumberEditor" />
+      <Type Name="RangeEditor" />
+      <Type Name="RangeErrorArgs" />
+      <Type Name="Seekbar" />
+      <Type Name="SetPasswordDialog" />
+      <Type Name="SortDialog" />
+      <Type Name="TelephoneEditor" />
+      <Type Name="TimeEditor" />
+      <Type Name="TimePicker" />
+      <Type Name="VVolumebar" />
+      <Type Name="VolumebarRange" />
+      <Type Name="WeekdayPicker" />
+      <Type Name="WizardDialog" />
+      <Type Name="DateErrorHandler" />
+      <Type Name="EndReachedHandler" />
+      <Type Name="FileSystemModelThumbnailCallback" />
+      <Type Name="RangeErrorHandler" />
+      <Type Name="CaptionStatus" />
+      <Type Name="DateEditorErrorType" />
+      <Type Name="FileSelectionPane" />
+      <Type Name="FileSelectionSortKey" />
+      <Type Name="FileSelectionVisibleColumns" />
+      <Type Name="FileSystemModelColumns" />
+      <Type Name="GridItemIconSizeType" />
+      <Type Name="GridPositionType" />
+      <Type Name="InputModeHint" />
+      <Type Name="NoteType" />
+      <Type Name="NumberEditorErrorType" />
+      <Type Name="ZoomLevel" />
+    </Namespace>
+  </Types>
+  <Title>maemo-sharp</Title>
+</Overview>

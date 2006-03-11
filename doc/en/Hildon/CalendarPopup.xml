@@ -1,0 +1,114 @@
+<Type Name="CalendarPopup" FullName="Hildon.CalendarPopup">
+  <TypeSignature Language="C#" Value="public class CalendarPopup : Gtk.Dialog" />
+  <AssemblyInfo>
+    <AssemblyName>maemo-sharp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Gtk.Dialog</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CalendarPopup (GLib.GType gtype);" />
+      <MemberType>Constructor</MemberType>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete(Message=null, IsError=False)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="gtype" Type="GLib.GType" />
+      </Parameters>
+      <Docs>
+        <param name="gtype">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarPopup (IntPtr raw);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="raw" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="raw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarPopup (Gtk.Window parent, uint year, uint month, uint day);" />
+      <MemberType>Constructor</MemberType>
+      <Parameters>
+        <Parameter Name="parent" Type="Gtk.Window" />
+        <Parameter Name="year" Type="System.UInt32" />
+        <Parameter Name="month" Type="System.UInt32" />
+        <Parameter Name="day" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="year">To be added.</param>
+        <param name="month">To be added.</param>
+        <param name="day">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDate">
+      <MemberSignature Language="C#" Value="public void SetDate (uint year, uint month, uint day);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="year" Type="System.UInt32" />
+        <Parameter Name="month" Type="System.UInt32" />
+        <Parameter Name="day" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="year">To be added.</param>
+        <param name="month">To be added.</param>
+        <param name="day">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDate">
+      <MemberSignature Language="C#" Value="public void GetDate (out uint year, out uint month, out uint day);" />
+      <MemberType>Method</MemberType>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="year" Type="System.UInt32&amp;" RefType="out" />
+        <Parameter Name="month" Type="System.UInt32&amp;" RefType="out" />
+        <Parameter Name="day" Type="System.UInt32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="year">To be added.</param>
+        <param name="month">To be added.</param>
+        <param name="day">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GType">
+      <MemberSignature Language="C#" Value="public static GLib.GType GType { get; };" />
+      <MemberType>Property</MemberType>
+      <ReturnValue>
+        <ReturnType>GLib.GType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
