@@ -2,7 +2,7 @@
 // Maemo# - Maemo bindings for Mono
 //
 // Author: 
-//   Everaldo Canuto <everaldo@simios.org>
+//   Everaldo Canuto <everaldo@bananacrew.com>
 //
 // (C) 2005 Everaldo Canuto
 //
@@ -30,7 +30,7 @@ using System;
 using System.Collections;
 using System.Runtime.InteropServices;
 
-namespace LibOSSO
+namespace Maemo
 {
 	public class Osso
 	{

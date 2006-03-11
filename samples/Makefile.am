@@ -7,7 +7,7 @@ DEBUGS = $(addsuffix .mdb, $(TARGETS))
 
 CLEANFILES = $(TARGETS) $(DEBUGS)
 
-references=-r:../hildon/hildon-sharp.dll -pkg:gtk-sharp-2.0
+references=-r:../hildon/hildon-sharp.dll -r:../libosso/libosso-sharp.dll -pkg:gtk-sharp-2.0
 
 all: $(TARGETS)
 

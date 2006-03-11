@@ -6,12 +6,12 @@ SOURCE_DIRS = \
 	hildon-libs \
 	hildon-fm
 
-EXTRA_DIST = hildon-sharp-sources.xml
+EXTRA_DIST = maemo-sharp-sources.xml
 
 api:
 	PERLLIB=$(GTKSHARP_PREFIX)/share/perl5 \
 	PATH=$(GTKSHARP_PREFIX)/bin:$$PATH \
-	gapi2-parser hildon-sharp-sources.xml
+	gapi2-parser maemo-sharp-sources.xml
 
 get-sources:
 	@for i in $(SOURCE_DIRS); do                                              \

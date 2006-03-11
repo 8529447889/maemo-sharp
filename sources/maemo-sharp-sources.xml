@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <gapi-parser-input>
-  <api filename="../hildon/hildon-api.raw">
+  <api filename="../maemo/maemo-api.raw">
     <library name="hildon-lgpl">
-      <namespace name="Hildon">
+      <namespace name="Maemo">
         <dir>hildon-lgpl/hildon-lgpl</dir>
       </namespace>
     </library>
     <library name="hildonwidgets">
-      <namespace name="Hildon">
+      <namespace name="Maemo">
         <dir>hildon-libs/hildon-widgets</dir>
       </namespace>
     </library>
     <library name="hildonfm">
-      <namespace name="Hildon">
+      <namespace name="Maemo">
         <dir>hildon-fm/hildon-fm</dir>
       </namespace>
     </library>
