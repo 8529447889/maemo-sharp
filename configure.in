@@ -129,14 +129,10 @@ AC_SUBST(API_VERSION)
 
 AC_OUTPUT([
 Makefile
-hildon/hildon-sharp.pc
-hildon/hildon-sharp.dll.config
-hildon/Makefile
-hildon/AssemblyInfo.cs
-libosso/libosso-sharp.pc
-libosso/libosso-sharp.dll.config
-libosso/Makefile
-libosso/AssemblyInfo.cs
+maemo/maemo-sharp.pc
+maemo/maemo-sharp.dll.config
+maemo/Makefile
+maemo/AssemblyInfo.cs
 sources/Makefile
 samples/Makefile
 doc/Makefile

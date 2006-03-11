@@ -1,12 +1,12 @@
-Hildon#
-=======
+Maemo#
+======
 
-Hildon# is a Gtk# bindings for Hildon libraries.
+Maemo# is a Gtk# bindings for Maemo libraries.
 
 Downloading
 -----------
 
-The latest version of Hildon# can be obtained from the following Web site:
+The latest version of Maemo# can be obtained from the following Web site:
 
     https://...
 
@@ -20,7 +20,7 @@ make install
 Copyright Considerations
 ------------------------
 
-Hildon# is distributed under the terms of the GNU Lesser General Public License.
+Maemo# is distributed under the terms of the GNU Lesser General Public License.
 A copy of this can be found in the "COPYING" file.
 
 Contacting the Author

@@ -1,4 +1,0 @@
-<configuration>
-  <dllmap dll="libosso" target="libosso@LIB_PREFIX@.1@LIB_SUFFIX@"/>
-</configuration>
-
