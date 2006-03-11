@@ -149,14 +149,11 @@ target_vendor = @target_vendor@
 @ENABLE_MONODOC_TRUE@docsdir = $(prefix)/lib/monodoc/sources
 @ENABLE_MONODOC_FALSE@docs_DATA = 
 @ENABLE_MONODOC_TRUE@docs_DATA = $(TARGETS)
-ASSEMBLIES = \
-	../hildon/hildon-sharp.dll   \
-	../libosso/libosso-sharp.dll
-
+ASSEMBLIES = ../maemo/maemo-sharp.dll
 UPDATE_ASSEMBLIES = $(addprefix -assembly:, $(ASSEMBLIES))
 CLEANFILES = maemo-sharp-docs.zip maemo-sharp-docs.tree
 EXTRA_DIST = maemo-sharp-docs.source
-NAMESPACES = Hildon LibOSSO
+NAMESPACES = Hildon Libosso
 all: all-am
 
 .SUFFIXES:
