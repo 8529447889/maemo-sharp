@@ -2,9 +2,9 @@
 // Maemo# - Maemo bindings for Mono
 //
 // Author: 
-//   Everaldo Canuto <everaldo@simios.org>
+//   Everaldo Canuto <everaldo@bananacrew.com>
 //
-// (C) 2005 Everaldo Canuto
+// (C) 2006 BananaCrew Limited
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the
