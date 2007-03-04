@@ -1,0 +1,14 @@
+Source: maemo-sharp
+Section: user/libs
+Priority: optional
+Maintainer: Everaldo Canuto <ecanuto@novell.com>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1
+
+Package: maemo-sharp
+Architecture: any
+Depends: mono-runtime, gtk-sharp2 (>= 2.4.3)
+Description: CLI binding for the Maemo 2.2
+ This package provides assemblies that allow CLI (.NET) programs to use the
+ Maemo and Hildon libraries.
+

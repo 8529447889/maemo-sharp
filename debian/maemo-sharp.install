@@ -1,0 +1,4 @@
+debian/tmp/usr/lib/mono/gac/maemo-sharp/1.0.*/maemo-sharp.dll
+debian/tmp/usr/lib/mono/gac/maemo-sharp/1.0.*/maemo-sharp.dll.config
+debian/tmp/usr/lib/mono/maemo-sharp/maemo-sharp.dll
+

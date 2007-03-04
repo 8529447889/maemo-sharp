@@ -1,5 +1,15 @@
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
 
+	* debian/: Package stuff added, now you can type "make deb" to generate	
+	.deb package.
+
+	* Makefile.am: deb target added.
+
+	* maemo/maemo-sharp.dll.config.in: hildon-lgpl removed because it is not
+	used in Maemo 2.2.
+
+2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
+
 	* maemo/maemo-sharp.dll.config: File added.
 
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
