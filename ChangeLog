@@ -1,5 +1,9 @@
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
 
+	* maemo/maemo-sharp.dll.config: File added.
+
+2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
+
 	* samples/*.cs: Sample applications updated to Maemo 2.2.
 
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
