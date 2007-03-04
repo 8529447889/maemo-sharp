@@ -1,3 +1,8 @@
+2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
+
+	* maemo/maemo-api.raw, maemo/maemo.metadata, sources/maemo-sharp-sources.xml: 
+	- Update to Maemo 2.0 api.
+
 2006-03-11  Everaldo Canuto  <everaldo@bananacrew.com>
 
 	* Merge libosso and hildon into only one assembly 'maemo'.
