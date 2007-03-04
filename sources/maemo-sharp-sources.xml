@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <gapi-parser-input>
   <api filename="../maemo/maemo-api.raw">
-    <library name="hildon-lgpl">
-      <namespace name="Hildon">
-        <dir>hildon-lgpl/hildon-lgpl</dir>
-      </namespace>
-    </library>
     <library name="hildonwidgets">
       <namespace name="Hildon">
         <dir>hildon-libs/hildon-widgets</dir>

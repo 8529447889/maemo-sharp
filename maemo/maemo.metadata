@@ -1,9 +1,14 @@
 <?xml version="1.0"?>
 <metadata>
 	<remove-node path="/api/namespace/object[@name='']" />
+
 	<attr path="/api/namespace/enum/member[@cname='HILDON_GRID_ITEM_ICON_27x27']" name="name">Size27x27</attr>
 	<attr path="/api/namespace/enum/member[@cname='HILDON_GRID_ITEM_ICON_128x128']" name="name">Size128x128</attr>
+	<attr path="/api/namespace/enum/member[@cname='HILDON_WIZARD_DIALOG_CANCEL']" name="value">Gtk.ResponseType.Cancel</attr>
+	<attr path="/api/namespace/enum/member[@cname='HILDON_WIZARD_DIALOG_PREVIOUS']" name="value">0</attr>
+
 	<attr path="/api/namespace/object[@cname='HildonTimeEditor']/method[@cname='hildon_time_editor_show_seconds']" name="hidden">1</attr>
+
 	<remove-node path="/api/namespace/struct[@cname='HildonColorPopup']" />
 	<remove-node path="/api/namespace/object[@cname='HildonColorButton']" />
 	<remove-node path="/api/namespace/object[@cname='HildonFileChooserDialog']/property[@name='']" />
@@ -11,7 +16,9 @@
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
+
 	<attr path="/api/namespace/class[@cname='HildonGtk_']" name="name">HildonGtk</attr>
 	<attr path="/api/namespace/object[@cname='HildonApp']/method[@cname='hildon_app_get_title']" name="name">GetAppTitle</attr>
 	<attr path="/api/namespace/object[@cname='HildonApp']/method[@cname='hildon_app_set_title']" name="name">SetAppTitle</attr>
+	<attr path="/api/namespace/object[@cname='HildonCaption']/signal[@cname='activate']" name="name">Activated</attr>
 </metadata>

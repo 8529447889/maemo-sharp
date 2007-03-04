@@ -2,7 +2,6 @@
 SVN_ROOT = https://stage.maemo.org/svn/maemo/projects/haf/tags
 
 SOURCE_DIRS = \
-	hildon-lgpl \
 	hildon-libs \
 	hildon-fm
 
