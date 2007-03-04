@@ -1,7 +1,11 @@
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
 
+	* configure.in: Release changed to 0.20, relative to Maemo 2.0.
+
+2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
+
 	* maemo/maemo-api.raw, maemo/maemo.metadata, sources/maemo-sharp-sources.xml: 
-	- Update to Maemo 2.0 api.
+	- Update to Maemo 2.2 api.
 
 2006-03-11  Everaldo Canuto  <everaldo@bananacrew.com>
 
