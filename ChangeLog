@@ -1,6 +1,10 @@
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
 
-	* configure.in: Release changed to 0.20, relative to Maemo 2.0.
+	* samples/*.cs: Sample applications updated to Maemo 2.2.
+
+2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
+
+	* configure.in: Release changed to 0.20, relative to Maemo 2.2.
 
 2007-03-04  Everaldo Canuto  <ecanuto@novell.com>
 

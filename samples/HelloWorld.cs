@@ -30,30 +30,24 @@ using System;
 using Gtk;
 using Hildon;
 
-public class HelloWorld : Hildon.App
+public class HelloWorld : Hildon.Window
 {
 	public static void Main (string[] args)
 	{
-		Application.Init ();
-		new HelloWorld ();
+		Application.Init ("Maemo# Sample", ref args);
+
+		Program program = Program.Instance;
+		program.AddWindow (new HelloWorld ());
+
 		Application.Run ();
 	}
 
 	public HelloWorld ()
 	{
-		this.AppTitle = "Hildon# Sample";
-		this.Appview  = new AppView("");
-		this.DeleteEvent += new DeleteEventHandler (OnMyWindowDelete);
+		this.Destroyed += delegate {Application.Quit ();};
 
 		Label label = new Label("Hello World!");
-		this.Appview.Add (label);
-
+		this.Add (label);
 		this.ShowAll ();
-	}
-	
-	protected void OnMyWindowDelete (object sender, DeleteEventArgs a)
-	{
-		Application.Quit ();
-		a.RetVal = true;
 	}
 }

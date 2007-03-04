@@ -30,20 +30,21 @@ using System;
 using Gtk;
 using Hildon;
 
-public class CalendarApp : Hildon.App
+public class CalendarWindow : Hildon.Window
 {
 	public static void Main (string[] args)
 	{
-		Application.Init ();
-		new CalendarApp ();
+		Application.Init ("Maemo# Calendar", ref args);
+
+		Program program = Program.Instance;
+		program.AddWindow ( new CalendarWindow () );
+
 		Application.Run ();
 	}
 
-	public CalendarApp ()
+	public CalendarWindow ()
 	{
-		this.AppTitle = "Hildon# Calendar";
-		this.Appview  = new AppView("");
-		this.DeleteEvent += new DeleteEventHandler (OnMyWindowDelete);
+		this.Destroyed += delegate {Application.Quit ();};
 
 
 		Calendar cal = new Calendar();
@@ -52,17 +53,10 @@ public class CalendarApp : Hildon.App
 						     CalendarDisplayOptions.ShowDayNames   |
 						     CalendarDisplayOptions.ShowWeekNumbers;
 
-		this.Appview.Add (cal);
-
+		this.Add (cal);
 		this.ShowAll ();
 	}
 	
-	protected void OnMyWindowDelete (object sender, DeleteEventArgs a)
-	{
-		Application.Quit ();
-		a.RetVal = true;
-	}
-
 	protected void DaySelected (object obj, EventArgs args)
 	{
 		Calendar activatedCalendar = (Calendar) obj;

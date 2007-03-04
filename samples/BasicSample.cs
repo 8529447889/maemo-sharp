@@ -32,26 +32,20 @@ using Hildon;
 
 public class BasicSample
 {
-	public static void Main()
+	public static void Main(string [] args)
 	{
-		Application.Init();
+		Application.Init("Basic Sample", ref args);
 
-		App app = new App();
-		app.AppTitle = "Hildon# Sample";
-		app.Appview = new AppView("");
-		app.DeleteEvent += new DeleteEventHandler (OnMyWindowDelete);
+		Program program = Program.Instance;
+
+		Hildon.Window window = new Hildon.Window ();
+		window.Destroyed += delegate { Application.Quit (); };
 
 		Image image = new Image("gorilla.png");
-		app.Appview.Add (image);
+		window.Add (image);
+		window.ShowAll ();
 
-		app.ShowAll ();
-		
+		program.AddWindow (window);		
 		Application.Run ();
-	}
-	
-	static void OnMyWindowDelete (object sender, DeleteEventArgs a)
-	{
-		Application.Quit ();
-		a.RetVal = true;
 	}
 }
