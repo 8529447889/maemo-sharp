@@ -7,14 +7,14 @@
 	* maemo/maemo-api.raw, maemo/maemo.metadata, sources/maemo-sharp-sources.xml: 
 	- Update to Maemo 2.2 api.
 
-2006-03-11  Everaldo Canuto  <everaldo@bananacrew.com>
+2006-03-11  Everaldo Canuto  <ecanuto@novell.com>
 
 	* Merge libosso and hildon into only one assembly 'maemo'.
 
-2006-02-23  Everaldo Canuto  <everaldo@bananacrew.com>
+2006-02-23  Everaldo Canuto  <ecanuto@novell.com>
 
 	* COPYING: Change license to LGPL.
 
-2006-02-22  Everaldo Canuto  <everaldo@bananacrew.com>
+2006-02-22  Everaldo Canuto  <ecanuto@novell.com>
 
 	Initial Import.
