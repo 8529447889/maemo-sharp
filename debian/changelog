@@ -1,3 +1,9 @@
+maemo-sharp (0.21-1) unstable; urgency=low
+
+  * Support fro Osso.Context added.
+
+ -- Everaldo Canuto <ecanuto@novell.com>  Tue,  6 Mar 2007 11:37:39 -0300
+
 maemo-sharp (0.20-1) unstable; urgency=low
 
   * Initial Release.

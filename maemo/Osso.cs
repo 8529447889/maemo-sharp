@@ -30,25 +30,25 @@ using System;
 using System.Collections;
 using System.Runtime.InteropServices;
 
-namespace Libosso
+namespace Osso
 {
-	public class Osso
+	public class Context
 	{
 		private static IntPtr osso_context;
 		
-		private Osso ()
+		private Context ()
 		{
 			// Only to prevent instance.
 		}
 
 		[DllImport("libosso")]
 		static extern IntPtr osso_initialize(IntPtr application, IntPtr version, bool activation, IntPtr context);
-				
-		public static void Initialize (string application, string version, bool activation)
+		
+		public static void Initialize (string application, string version)
 		{
 			IntPtr new_application = GLib.Marshaller.StringToPtrGStrdup (application);
 			IntPtr new_version     = GLib.Marshaller.StringToPtrGStrdup (version);
-			osso_context = osso_initialize(new_application, new_version, activation, IntPtr.Zero);
+			osso_context = osso_initialize(new_application, new_version, true, IntPtr.Zero);
 			GLib.Marshaller.Free (new_application);
 			GLib.Marshaller.Free (new_version);
 		}

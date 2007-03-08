@@ -1,3 +1,13 @@
+2007-03-08  Everaldo Canuto  <ecanuto@novell.com>
+
+	* configure.in, debian/changelog: Release changed to 0.21.
+	
+	* maemo/maemo-sharp.dll.config.in: dllmap for libosso added.
+	
+	* maemo/Osso.cs: Namespace renamed to Osso and class renamed to Context.
+	
+	* samples/Makefile.am: Banner sample added, thanks to Michael Golisch.
+
 2007-03-05  Everaldo Canuto  <ecanuto@novell.com>
 
 	* debian/control: Change architeture to "all".

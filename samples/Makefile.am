@@ -1,5 +1,5 @@
 
-TARGETS = basic.exe hello-world.exe calendar.exe
+TARGETS = basic.exe hello-world.exe calendar.exe banner.exe
 
 EXTRA_DIST = BasicSample.cs HelloWorld.cs CalendarApp.cs gorilla.png
 
@@ -19,3 +19,6 @@ hello-world.exe: $(srcdir)/HelloWorld.cs
 
 calendar.exe: $(srcdir)/CalendarApp.cs
 	$(CSC)  /out:$@ $(references) $(srcdir)/CalendarApp.cs
+
+banner.exe: $(srcdir)/Banner.cs
+	$(CSC)  /out:$@ $(references) $(srcdir)/Banner.cs
