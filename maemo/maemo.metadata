@@ -13,9 +13,37 @@
 	<remove-node path="/api/namespace/object[@cname='HildonColorButton']" />
 	<remove-node path="/api/namespace/object[@cname='HildonFileChooserDialog']/property[@name='']" />
 	<remove-node path="/api/namespace/object[@cname='HildonFileChooserDialog']/property[@name='']" />
+	
+	<!-- Fix FindToolbar event problems -->
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
 	<remove-node path="/api/namespace/object[@cname='HildonFindToolbar']/signal[not(@name)]" />
+	<add-node path="/api/namespace/object[@cname='HildonFindToolbar']">
+      <signal name="Search" cname="search" when="LAST">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="HildonFindToolbar*" name="toolbar" />
+        </parameters>
+      </signal>
+      <signal name="Closed" cname="close" when="LAST">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="HildonFindToolbar*" name="toolbar" />
+        </parameters>
+      </signal>
+      <signal name="InvalidInput" cname="invalid_input" when="LAST">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="HildonFindToolbar*" name="toolbar" />
+        </parameters>
+      </signal>
+      <signal name="HistoryAppend" cname="history_append" when="LAST">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="HildonFindToolbar*" name="toolbar" />
+        </parameters>
+      </signal>
+	</add-node>
 
 	<attr path="/api/namespace/class[@cname='HildonGtk_']" name="name">HildonGtk</attr>
 	<attr path="/api/namespace/object[@cname='HildonApp']/method[@cname='hildon_app_get_title']" name="name">GetAppTitle</attr>

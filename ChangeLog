@@ -1,3 +1,8 @@
+2007-03-30  Everaldo Canuto  <ecanuto@novell.com>
+
+	* maemo/maemo.metadata: Closed, Search, InvalidInput and HistoryAppend
+	events added to FindToolbar.
+
 2007-03-08  Everaldo Canuto  <ecanuto@novell.com>
 
 	* configure.in, debian/changelog: Release changed to 0.21.
