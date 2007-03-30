@@ -1,7 +1,7 @@
 
-TARGETS = basic.exe hello-world.exe calendar.exe banner.exe
+TARGETS = basic.exe hello-world.exe calendar.exe banner.exe findbar.exe
 
-EXTRA_DIST = BasicSample.cs HelloWorld.cs CalendarApp.cs gorilla.png
+EXTRA_DIST = BasicSample.cs HelloWorld.cs CalendarApp.cs Banner.cs FindBar.cs gorilla.png
 
 DEBUGS = $(addsuffix .mdb, $(TARGETS))
 
@@ -22,3 +22,6 @@ calendar.exe: $(srcdir)/CalendarApp.cs
 
 banner.exe: $(srcdir)/Banner.cs
 	$(CSC)  /out:$@ $(references) $(srcdir)/Banner.cs
+
+findbar.exe: $(srcdir)/FindBar.cs
+	$(CSC)  /out:$@ $(references) $(srcdir)/FindBar.cs

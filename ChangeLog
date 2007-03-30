@@ -1,5 +1,9 @@
 2007-03-30  Everaldo Canuto  <ecanuto@novell.com>
 
+	* samples/FindBar.cs, samples/Makefile.am: FindToolbar sample added.
+
+2007-03-30  Everaldo Canuto  <ecanuto@novell.com>
+
 	* maemo/maemo.metadata: Closed, Search, InvalidInput and HistoryAppend
 	events added to FindToolbar.
 
