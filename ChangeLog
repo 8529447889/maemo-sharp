@@ -1,3 +1,7 @@
+2007-04-24  Everaldo Canuto  <ecanuto@novell.com>
+
+	* configure.in: Move version to 0.22 to be released with Mono 1.2.4.
+
 2007-03-30  Everaldo Canuto  <ecanuto@novell.com>
 
 	* samples/FindBar.cs, samples/Makefile.am: FindToolbar sample added.
