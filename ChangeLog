@@ -1,3 +1,7 @@
+2007-04-25  Everaldo Canuto  <ecanuto@novell.com>
+
+	* maemo/Makefile.am: Remove api.xml from dist.
+
 2007-04-24  Everaldo Canuto  <ecanuto@novell.com>
 
 	* configure.in: Move version to 0.22 to be released with Mono 1.2.4.
