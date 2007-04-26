@@ -1,6 +1,7 @@
 2007-04-25  Everaldo Canuto  <ecanuto@novell.com>
 
 	* maemo/Makefile.am: Remove api.xml from dist.
+	* debian/changelog: Upgrade deb package to 0.22-1.
 
 2007-04-24  Everaldo Canuto  <ecanuto@novell.com>
 

@@ -163,7 +163,7 @@ customs =
 CLEANFILES = maemo-sharp.dll generated-stamp generated/*.cs $(API)
 DISTCLEANFILES = AssemblyInfo.cs maemo-sharp.pc
 noinst_DATA = maemo-sharp.dll
-EXTRA_DIST = $(RAW_API) $(sources) $(customs) $(METADATA) AssemblyInfo.cs.in maemo-sharp.dll.config.in maemo-sharp.pc.in $(API)
+EXTRA_DIST = $(RAW_API) $(sources) $(customs) $(METADATA) AssemblyInfo.cs.in maemo-sharp.dll.config.in maemo-sharp.pc.in
 all: all-am
 
 .SUFFIXES:
