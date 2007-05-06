@@ -1,3 +1,9 @@
+2007-05-06  Everaldo Canuto  <ecanuto@novell.com>
+
+	* debian/control: Add logo to packages, this logo show in Application 
+	Manager.
+	* debian/changelog: Change revision up to 0.22-2.
+
 2007-04-25  Everaldo Canuto  <ecanuto@novell.com>
 
 	* maemo/Makefile.am: Remove api.xml from dist.
