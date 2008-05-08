@@ -136,6 +136,7 @@ maemo/AssemblyInfo.cs
 sources/Makefile
 samples/Makefile
 doc/Makefile
+debian/Makefile
 ])
 
 echo ""

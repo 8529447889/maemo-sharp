@@ -1,5 +1,9 @@
 2007-05-08  Everaldo Canuto  <ecanuto@novell.com>
 
+	* configure.in, Makefile.am: debian dir added to dist (tar).
+
+2007-05-08  Everaldo Canuto  <ecanuto@novell.com>
+
 	*  debian/changelog: Upgrade package to 0.23.
 
 2007-05-08  Everaldo Canuto  <ecanuto@novell.com>
