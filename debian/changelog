@@ -1,3 +1,9 @@
+maemo-sharp (0.23-2) unstable; urgency=low
+
+  * Update to release 0.23, Maemo 4
+
+ -- Everaldo Canuto <ecanuto@novell.com>  Thu,  8 May 2008 05:27:01 -0300
+
 maemo-sharp (0.22-2) unstable; urgency=low
 
   * Add logo to packages, this logo show in Application Manager.
