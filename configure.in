@@ -1,6 +1,6 @@
 AC_INIT(README)
 AC_CANONICAL_SYSTEM
-AM_INIT_AUTOMAKE(maemo-sharp, 0.22)
+AM_INIT_AUTOMAKE(maemo-sharp, 0.23)
 AM_MAINTAINER_MODE
 AC_PROG_INSTALL
 
@@ -71,9 +71,9 @@ gtksharp_prefix=`pkg-config --variable=prefix gtk-sharp-2.0`
 AC_SUBST(gtksharp_prefix)
 
 dnl Check for hildon
-PKG_CHECK_MODULES(hildon, hildon-lgpl >= 0.9.0)
+PKG_CHECK_MODULES(hildon, hildon-1 >= 1.99.0)
 AC_SUBST(hildon_LIBS)
-hildon_prefix=`pkg-config --variable=prefix hildon-lgpl`
+hildon_prefix=`pkg-config --variable=prefix hildon-1`
 AC_SUBST(hildon_prefix)
 
 dnl Check for libosso

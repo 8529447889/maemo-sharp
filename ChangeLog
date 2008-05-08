@@ -1,3 +1,14 @@
+2008-05-03  Torello Querci <tquerci@gmail.com>
+
+	* configure: Modify the check from hildon-lgpl to hildon-1 to adjust
+	to Maemo4 developing platform.
+
+	* configure.in: Modify the check from hildon-lgpl to hildon-1. 
+	Release changed to 0.23.
+
+	* maemo/maemo-sharp.dll.config.in: Modified the mapping between the 
+	hildonwigets and the real name of the shared library
+
 2007-05-06  Everaldo Canuto  <ecanuto@novell.com>
 
 	* debian/control: Add logo to packages, this logo show in Application 
