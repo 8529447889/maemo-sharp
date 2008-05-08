@@ -1,3 +1,7 @@
+2007-05-08  Everaldo Canuto  <ecanuto@novell.com>
+
+	* all: Add files to ignore list.
+
 2008-05-03  Torello Querci <tquerci@gmail.com>
 
 	* configure: Modify the check from hildon-lgpl to hildon-1 to adjust
